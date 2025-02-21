@@ -63,7 +63,7 @@ const App = () => {
       
       const parsedData = validateAndParseJSON(jsonInput);
       
-      const response = await fetch('https://bajajbackend.devashish.top', {
+      const response = await fetch('https://bajajbackend.devashish.top/bfhl', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
