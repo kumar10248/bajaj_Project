@@ -23,7 +23,7 @@ const App = () => {
 
   const testApiConnection = async () => {
     try {
-      const response = await fetch('http://localhost:8000/bfhl', {
+      const response = await fetch('https://bajajbackend.devashish.top/bfhl', {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',
